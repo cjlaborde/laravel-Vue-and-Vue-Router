@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div>
         <h1 class="font-normal text-3xl text-gray-600 leading-none mb-6">
             Colors
         </h1>

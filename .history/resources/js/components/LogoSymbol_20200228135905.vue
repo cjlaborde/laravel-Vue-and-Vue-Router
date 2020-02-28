@@ -61,7 +61,7 @@
 
                 <a
                     href="/images/symbol-pure-negative.svg"
-                    class="border border-gray-200 px-8 py-2 rounded-full text-black font-bold text-xs"
+                    class="border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs"
                     >symbol-pure-negative.svg</a
                 >
             </div>

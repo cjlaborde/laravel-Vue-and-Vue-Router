@@ -19,7 +19,7 @@
         </div>
         
         <div class="mb-10">
-            <picture
+            <picture 
                 style="height: 382px;" 
                 class="block shadow flex items-center justify-center mb-6 bg-blue-700 rounded-lg"
             >

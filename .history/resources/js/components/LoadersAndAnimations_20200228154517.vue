@@ -14,14 +14,14 @@
         </p>
 
         <div
-            class="border border-gray-200 rounded-lg flex items-center justify-center mb-8"
+            class="border border-grey-lighter rounded-lg flex items-center justify-center mb-8"
         >
             <div ref="lottie" class="w-64" style="height: 457px"></div>
         </div>
 
         <a
             href="/images/logo.svg"
-            class="border border-gray-200 px-10 py-2 rounded-full text-black font-bold text-xs"
+            class="border border-grey-200 px-10 py-2 rounded-full text-black font-bold text-xs"
             >spinner.zip
         </a>
     </div>

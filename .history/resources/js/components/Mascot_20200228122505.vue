@@ -1,6 +1,6 @@
 <template>
-    <div class="container">
-        <h1 class="font-normal text-3xl text-gray-800 leading-none mb-12">
+    <div>
+        <h1 class="font-normal text-3xl text-grey-darkest leading-none mb-12">
             Meet "Lary"
         </h1>
 
@@ -14,7 +14,7 @@
 
                 <a
                     href="/images/mascot/larydefault.svg"
-                    class="border border-gray-200 px-8 py-2 rounded-full text-black font-bold text-xs"
+                    class="border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs"
                     >larydefault.svg</a
                 >
             </div>
@@ -29,7 +29,7 @@
             <!-- larypeek.svg -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-gray-200 rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
+                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
             >
                 <a href="/images/mascot/larypeek.svg" class="mb-5 mt-auto">
                     <img
@@ -40,7 +40,7 @@
 
                 <a
                     href="/images/mascot/larypeek.svg"
-                    class="text-gray-600 text-2xs hover:underline mt-auto"
+                    class="text-grey text-2xs hover:underline mt-auto"
                     >larypeek.svg</a
                 >
             </div>
@@ -48,7 +48,7 @@
             <!-- larywink -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-gray-200 rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
+                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
             >
                 <a href="/images/mascot/larywink.svg" class="mb-5 mt-auto">
                     <img
@@ -59,7 +59,7 @@
 
                 <a
                     href="/images/mascot/larywink.svg"
-                    class="text-gray-600 text-2xs hover:underline mt-auto"
+                    class="text-grey text-2xs hover:underline mt-auto"
                     >larywink.svg</a
                 >
             </div>
@@ -67,7 +67,7 @@
             <!-- larysmart -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-gray-200 rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
+                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
             >
                 <a href="/images/mascot/larysmart.svg" class="mb-5 mt-auto">
                     <img
@@ -78,7 +78,7 @@
 
                 <a
                     href="/images/mascot/larysmart.svg"
-                    class="text-gray-600 text-2xs hover:underline mt-auto"
+                    class="text-grey text-2xs hover:underline mt-auto"
                     >larysmart.svg</a
                 >
             </div>
@@ -86,7 +86,7 @@
             <!-- larylab -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-gray-200 rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8"
+                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8"
             >
                 <a href="/images/mascot/larylab.svg" class="mb-5 mt-auto">
                     <img
@@ -98,7 +98,7 @@
 
                 <a
                     href="/images/mascot/larylab.svg"
-                    class="text-gray-600 text-2xs hover:underline mt-auto"
+                    class="text-grey text-2xs hover:underline mt-auto"
                     >larylab.svg</a
                 >
             </div>

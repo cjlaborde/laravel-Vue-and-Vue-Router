@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div>
         <h1 class="font-normal text-3xl text-gray-800 leading-none mb-12">
             Meet "Lary"
         </h1>

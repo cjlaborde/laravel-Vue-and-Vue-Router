@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div>
         <h1 class="font-normal text-3xl text-gray-600 leading-none mb-6">
             Colors
         </h1>
@@ -73,7 +73,7 @@
             <div class="flex">
                 <div class="text-center mr-8">
                     <div
-                        class="rounded-full shadow w-18 h-18 mb-3 bg-gray-800"
+                        class="rounded-full shadow w-18 h-18 mb-3 bg-gray-dark"
                     ></div>
                     <p class="text-xs">#78909C</p>
                 </div>

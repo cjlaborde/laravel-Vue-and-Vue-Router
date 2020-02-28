@@ -18,8 +18,8 @@
 
         </div>
         
-        <div class="mb-10">
-            <picture
+        <div>
+            <picture 
                 style="height: 382px;" 
                 class="block shadow flex items-center justify-center mb-6 bg-blue-700 rounded-lg"
             >
@@ -33,18 +33,18 @@
             </div>
         </div>
 
-        <div class="mb-10">
+        <div>
             <picture 
                 style="height: 382px;" 
                 class="block shadow flex items-center justify-center mb-6 bg-black rounded-lg"
             >
-                <img src="/images/pure-negative-logo.svg" alt="logo" />
+                <img src="/images/negative-logo.svg" alt="logo" />
             </picture>
 
             <div class="flex justify-between items-center">
-                <p>Pure negative logo on <strong>dark</strong> background</p>
+                <p>Negative logo on <strong>dark</strong> background</p>
 
-                <a href="/images/pure-negative-logo.svg" class="border border-gray-300 font-bold py-2 px-8 rounded-full text-black text-xs">pure-negative-logo.svg</a>
+                <a href="/images/negative-logo.svg" class="border border-gray-300 font-bold py-2 px-8 rounded-full text-black text-xs">negative-logo.svg</a>
             </div>
         </div>
 

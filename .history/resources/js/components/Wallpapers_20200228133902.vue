@@ -103,7 +103,7 @@
 
                 <a
                     href="/images/wallpapers/experimenting.png"
-                    class="border border-gray-200 px-8 py-2 rounded-full text-black font-bold text-xs"
+                    class="border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs"
                     >experimenting.png</a
                 >
             </div>

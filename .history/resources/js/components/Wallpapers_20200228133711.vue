@@ -40,7 +40,7 @@
 
                 <a
                     href="/images/wallpapers/strength.png"
-                    class="border border-gray-200 px-8 py-2 rounded-full text-black font-bold text-xs"
+                    class="border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs"
                     >strength.png</a
                 >
             </div>
@@ -61,7 +61,7 @@
 
                 <a
                     href="/images/wallpapers/knowledge.png"
-                    class="border border-gray-200 px-8 py-2 rounded-full text-black font-bold text-xs"
+                    class="border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs"
                     >knowledge.png</a
                 >
             </div>
@@ -82,7 +82,7 @@
 
                 <a
                     href="/images/wallpapers/fun.png"
-                    class="border border-gray-200 px-8 py-2 rounded-full text-black font-bold text-xs"
+                    class="border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs"
                     >fun.png</a
                 >
             </div>
@@ -103,7 +103,7 @@
 
                 <a
                     href="/images/wallpapers/experimenting.png"
-                    class="border border-gray-200 px-8 py-2 rounded-full text-black font-bold text-xs"
+                    class="border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs"
                     >experimenting.png</a
                 >
             </div>
@@ -124,7 +124,7 @@
 
                 <a
                     href="/images/wallpapers/extra.png"
-                    class="border border-gray-200 px-8 py-2 rounded-full text-black font-bold text-xs"
+                    class="border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs"
                     >extra.png</a
                 >
             </div>
@@ -145,7 +145,7 @@
 
                 <a
                     href="/images/wallpapers/inspire-me.png"
-                    class="border border-gray-200 px-8 py-2 rounded-full text-black font-bold text-xs"
+                    class="border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs"
                     >inspire-me.png</a
                 >
             </div>

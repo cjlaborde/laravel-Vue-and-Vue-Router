@@ -1,11 +1,11 @@
 <template>
-    <div class="container">
-        <h1 class="font-normal text-3xl text-gray-600 leading-none mb-6">
+    <div>
+        <h1 class="font-normal text-3xl text-grey- leading-none mb-6">
             Colors
         </h1>
 
         <div class="mb-16">
-            <p class="mb-8">Primary - Blue, White, Dark Gray</p>
+            <p class="mb-8">Primary - Blue, White, Dark Grey</p>
 
             <div class="flex">
                 <div class="text-center mr-8">
@@ -73,7 +73,7 @@
             <div class="flex">
                 <div class="text-center mr-8">
                     <div
-                        class="rounded-full shadow w-18 h-18 mb-3 bg-gray-800"
+                        class="rounded-full shadow w-18 h-18 mb-3 bg-gray-dark"
                     ></div>
                     <p class="text-xs">#78909C</p>
                 </div>

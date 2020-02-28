@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div>
         <h1 class="font-normal text-3xl text-gray-800 leading-none mb-12">
             Meet "Lary"
         </h1>
@@ -48,7 +48,7 @@
             <!-- larywink -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-gray-200 rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
+                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
             >
                 <a href="/images/mascot/larywink.svg" class="mb-5 mt-auto">
                     <img
@@ -59,7 +59,7 @@
 
                 <a
                     href="/images/mascot/larywink.svg"
-                    class="text-gray-600 text-2xs hover:underline mt-auto"
+                    class="text-grey text-2xs hover:underline mt-auto"
                     >larywink.svg</a
                 >
             </div>
@@ -67,7 +67,7 @@
             <!-- larysmart -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-gray-200 rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
+                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
             >
                 <a href="/images/mascot/larysmart.svg" class="mb-5 mt-auto">
                     <img
@@ -78,7 +78,7 @@
 
                 <a
                     href="/images/mascot/larysmart.svg"
-                    class="text-gray-600 text-2xs hover:underline mt-auto"
+                    class="text-grey text-2xs hover:underline mt-auto"
                     >larysmart.svg</a
                 >
             </div>
