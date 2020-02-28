@@ -10,12 +10,12 @@
     </head>
     <body class="font-open-sans">
         <div id="app">
+            <header class="py-6 mb-8" style="background: url('/images/symbol-original.svg') no-repeat;">
+                <h1 class="font-bold text-4xl mt-3">
+                    <img src="/images/logo.svg" alt="Laracasts">
+                </h1>
+            </header>
             <div class="containor px-8">
-                <header class="py-6 mb-8 pb-10" style="background: url('/images/symbol-original.svg') no-repeat;">
-                    <h1 class="font-bold text-4xl mt-3">
-                        <img src="/images/logo.svg" alt="Laracasts">
-                    </h1>
-                </header>
 
                 <main class="flex">
                     <!-- Side Bar -->

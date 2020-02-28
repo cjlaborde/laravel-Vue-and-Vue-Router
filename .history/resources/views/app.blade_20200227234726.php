@@ -10,16 +10,16 @@
     </head>
     <body class="font-open-sans">
         <div id="app">
-            <div class="containor px-8">
-                <header class="py-6 mb-8 pb-10" style="background: url('/images/symbol-original.svg') no-repeat;">
-                    <h1 class="font-bold text-4xl mt-3">
+            <div class="container px-8">
+                <header class="py-6 mb-8" style="background: url('/images/symbol-original.svg') no-repeat;">
+                    <h1 class="font-bold text-4xl">
                         <img src="/images/logo.svg" alt="Laracasts">
                     </h1>
                 </header>
 
                 <main class="flex">
                     <!-- Side Bar -->
-                    <aside class="w-64 pt-8">
+                    <aside class="w-1/5 pt-8">
                         <section class="mb-10">
                             <h5 class="uppercase font-bold mb-5 text-md">The Brand</h5>
                             <ul>

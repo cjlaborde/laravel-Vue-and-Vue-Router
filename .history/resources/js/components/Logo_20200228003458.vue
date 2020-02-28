@@ -5,7 +5,7 @@
         <div class="mb-10">
             <picture 
                 style="height: 382px;" 
-                class="block shadow flex items-center justify-center mb-6 rounded-lg"
+                class="block shadow flex items-center justify-center mb-6"
             >
                 <img src="/images/logo.svg" alt="logo" />
             </picture>
@@ -21,7 +21,7 @@
         <div>
             <picture 
                 style="height: 382px;" 
-                class="block shadow flex items-center justify-center mb-6 bg-blue-700 rounded-lg"
+                class="block shadow flex items-center justify-center mb-6"
             >
                 <img src="/images/negative-logo.svg" alt="logo" />
             </picture>
@@ -31,6 +31,7 @@
 
                 <a href="/images/negative-logo.svg" class="border border-gray-300 font-bold py-2 px-8 rounded-full text-black text-xs">negative-logo.svg</a>
             </div>
+
         </div>
     </div>
 </template>

@@ -13969,6 +13969,10 @@ h3 {
   transition-duration: 1000ms;
 }
 
+.containor {
+  max-width: 920px;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

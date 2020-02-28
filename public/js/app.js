@@ -1971,6 +1971,37 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -37559,9 +37590,73 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container" }, [
       _c(
         "h1",
-        { staticClass: "font-normal text-3xl text-gray-800 leading-none" },
+        { staticClass: "font-normal text-3xl text-gray-800 leading-none mb-8" },
         [_vm._v("Full Logo")]
-      )
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-10" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "block shadow flex items-center justify-center mb-6 rounded-lg",
+            staticStyle: { height: "382px" }
+          },
+          [_c("img", { attrs: { src: "/images/logo.svg", alt: "logo" } })]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("p", [
+            _vm._v("Original logo on "),
+            _c("strong", [_vm._v("white")]),
+            _vm._v(" background")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray-300 font-bold py-2 px-8 rounded-full text-black text-xs",
+              attrs: { href: "/images/logo.svg" }
+            },
+            [_vm._v("logo.svg")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "block shadow flex items-center justify-center mb-6 bg-blue-700 rounded-lg",
+            staticStyle: { height: "382px" }
+          },
+          [
+            _c("img", {
+              attrs: { src: "/images/negative-logo.svg", alt: "logo" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("p", [
+            _vm._v("Negative logo on "),
+            _c("strong", [_vm._v("white")]),
+            _vm._v(" background")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-gray-300 font-bold py-2 px-8 rounded-full text-black text-xs",
+              attrs: { href: "/images/negative-logo.svg" }
+            },
+            [_vm._v("negative-logo.svg")]
+          )
+        ])
+      ])
     ])
   }
 ]
