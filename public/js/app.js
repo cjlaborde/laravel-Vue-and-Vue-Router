@@ -1899,10 +1899,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Colors.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Colors.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ColorRange.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ColorRange.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1914,7 +1914,142 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['from', 'to', 'name']
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Colors.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Colors.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ColorRange__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ColorRange */ "./resources/js/components/ColorRange.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    ColorRange: _ColorRange__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
+});
 
 /***/ }),
 
@@ -2021,6 +2156,71 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2089,6 +2289,155 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -37454,6 +37803,71 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ColorRange.vue?vue&type=template&id=30ab8f45&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ColorRange.vue?vue&type=template&id=30ab8f45& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "mr-8 flex flex-col items-center" }, [
+    _c("div", {
+      staticClass: "rounded-full shadow w-18 h-18 mb-3",
+      style:
+        "background-image: linear-gradient(to left, " +
+        _vm.from +
+        ", " +
+        _vm.to +
+        ")"
+    }),
+    _vm._v(" "),
+    _c("div", { staticClass: "flex justify-center mb-4" }, [
+      _c("div", { staticClass: "flex flex-col items-center mr-4" }, [
+        _c("div", {
+          staticClass: "rounded-full w-5 h-5 shadow mb-3",
+          style: "background: " + _vm.from
+        }),
+        _vm._v(" "),
+        _c("p", {
+          staticClass: "text-xs",
+          domProps: { textContent: _vm._s(_vm.from) }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex flex-col items-center" }, [
+        _c("div", {
+          staticClass: "rounded-full w-5 h-5 shadow mb-3",
+          style: "background: " + _vm.to
+        }),
+        _vm._v(" "),
+        _c("p", {
+          staticClass: "text-xs",
+          domProps: { textContent: _vm._s(_vm.to) }
+        })
+      ])
+    ]),
+    _vm._v(" "),
+    _c("h5", {
+      staticClass: "uppercase text-2xs text-grey-light font-normal",
+      domProps: { textContent: _vm._s(_vm.name) }
+    })
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Colors.vue?vue&type=template&id=6f2b98ca&":
 /*!*********************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Colors.vue?vue&type=template&id=6f2b98ca& ***!
@@ -37469,19 +37883,106 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c(
+      "h1",
+      {
+        staticClass: "font-normal text-3xl text-grey-darkest leading-none mb-6"
+      },
+      [_vm._v("\n        Colors\n    ")]
+    ),
+    _vm._v(" "),
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "mb-16" }, [
+      _c("p", { staticClass: "mb-8" }, [
+        _vm._v("Secondary - Category Colors & Accents")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "flex" },
+        [
+          _c("color-range", {
+            attrs: { from: "#EC454F", to: "#F44881", name: "Laravel" }
+          }),
+          _vm._v(" "),
+          _c("color-range", {
+            attrs: { from: "#637BFF", to: "#21C8F6", name: "PHP" }
+          }),
+          _vm._v(" "),
+          _c("color-range", {
+            attrs: { from: "#50A88D", to: "#6EDCC4", name: "Testing" }
+          }),
+          _vm._v(" "),
+          _c("color-range", {
+            attrs: { from: "#E59D3E", to: "#F19A1A", name: "JavaScript" }
+          }),
+          _vm._v(" "),
+          _c("color-range", {
+            attrs: { from: "#8465E5", to: "#AA76B9", name: "Tooling" }
+          })
+        ],
+        1
+      )
+    ]),
+    _vm._v(" "),
+    _vm._m(1)
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c(
-        "h1",
-        { staticClass: "font-normal text-3xl text-gray-800 leading-none" },
-        [_vm._v("Colors")]
-      )
+    return _c("div", { staticClass: "mb-16" }, [
+      _c("p", { staticClass: "mb-8" }, [
+        _vm._v("Primary - Blue, White, Dark Grey")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex" }, [
+        _c("div", { staticClass: "text-center mr-8" }, [
+          _c("div", {
+            staticClass: "rounded-full bg-blue shadow w-18 h-18 mb-3"
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-xs" }, [_vm._v("#328AF1")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "text-center mr-8" }, [
+          _c("div", {
+            staticClass: "rounded-full bg-white shadow w-18 h-18 mb-3"
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-xs" }, [_vm._v("#FFF")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "text-center" }, [
+          _c("div", {
+            staticClass: "rounded-full bg-black shadow w-18 h-18 mb-3"
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-xs" }, [_vm._v("#222222")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("p", { staticClass: "mb-8" }, [_vm._v("Icons")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex" }, [
+        _c("div", { staticClass: "text-center mr-8" }, [
+          _c("div", {
+            staticClass: "rounded-full shadow w-18 h-18 mb-3 bg-grey-dark"
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-xs" }, [_vm._v("#78909C")])
+        ])
+      ])
     ])
   }
 ]
@@ -37688,12 +38189,119 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
+    return _c("div", [
       _c(
         "h1",
-        { staticClass: "font-normal text-3xl text-gray-800 leading-none" },
-        [_vm._v("Logo Symbol")]
-      )
+        {
+          staticClass:
+            "font-normal text-3xl text-grey-darkest leading-none mb-8"
+        },
+        [_vm._v("\n        Logo Symbol\n    ")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-12" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "block shadow rounded-lg flex items-center justify-center mb-6",
+            staticStyle: { height: "382px" }
+          },
+          [
+            _c("img", {
+              attrs: { src: "/images/symbol-original.svg", alt: "logo" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("p", [
+            _vm._v("Original symbol on "),
+            _c("strong", [_vm._v("white")]),
+            _vm._v(" background")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/logo.svg" }
+            },
+            [_vm._v("symbol-original.svg")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-12" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "block shadow rounded-lg flex items-center justify-center mb-6 bg-blue",
+            staticStyle: { height: "382px" }
+          },
+          [
+            _c("img", {
+              attrs: { src: "/images/symbol-negative.svg", alt: "logo" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("p", [
+            _vm._v(
+              "\n                Negative symbol with accent on\n                "
+            ),
+            _c("strong", [_vm._v("dark")]),
+            _vm._v(" background\n            ")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/symbol-negative.svg" }
+            },
+            [_vm._v("symbol-negative.svg")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-12" }, [
+        _c(
+          "picture",
+          {
+            staticClass:
+              "block shadow rounded-lg flex items-center justify-center mb-6 bg-black",
+            staticStyle: { height: "382px" }
+          },
+          [
+            _c("img", {
+              attrs: { src: "/images/symbol-pure-negative.svg", alt: "logo" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("p", [
+            _vm._v("Pure negative symbol on "),
+            _c("strong", [_vm._v("dark")]),
+            _vm._v(" background")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/symbol-pure-negative.svg" }
+            },
+            [_vm._v("symbol-pure-negative.svg")]
+          )
+        ])
+      ])
     ])
   }
 ]
@@ -37823,12 +38431,209 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
+    return _c("div", [
       _c(
         "h1",
-        { staticClass: "font-normal text-3xl text-gray-800 leading-none" },
-        [_vm._v("Wallpapers")]
-      )
+        {
+          staticClass:
+            "font-normal text-3xl text-grey-darkest leading-none mb-6"
+        },
+        [_vm._v("\n        Wallpapers\n    ")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-12" }, [
+        _c("a", { attrs: { href: "/images/wallpapers/clarity.png" } }, [
+          _c("img", {
+            staticClass: "mb-4",
+            attrs: {
+              src: "/images/wallpapers/thumbnails/clarity.png",
+              alt: "Inspire Clarity Laracasts Wallpaper"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("h2", { staticClass: "font-normal text-base" }, [
+            _vm._v("Inspire Clarity")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/wallpapers/clarity.png" }
+            },
+            [_vm._v("clarity.png")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-12" }, [
+        _c("a", { attrs: { href: "/images/wallpapers/strength.png" } }, [
+          _c("img", {
+            staticClass: "mb-4",
+            attrs: {
+              src: "/images/wallpapers/thumbnails/strength.png",
+              alt: "Inspire Strength Laracasts Wallpaper"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("h2", { staticClass: "font-normal text-base" }, [
+            _vm._v("Inspire Strength")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/wallpapers/strength.png" }
+            },
+            [_vm._v("strength.png")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-12" }, [
+        _c("a", { attrs: { href: "/images/wallpapers/knowledge.png" } }, [
+          _c("img", {
+            staticClass: "mb-4",
+            attrs: {
+              src: "/images/wallpapers/thumbnails/knowledge.png",
+              alt: "Inspire Knowledge Laracasts Wallpaper"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("h2", { staticClass: "font-normal text-base" }, [
+            _vm._v("Inspire Knowledge")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/wallpapers/knowledge.png" }
+            },
+            [_vm._v("knowledge.png")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-12" }, [
+        _c("a", { attrs: { href: "/images/wallpapers/fun.png" } }, [
+          _c("img", {
+            staticClass: "mb-4",
+            attrs: {
+              src: "/images/wallpapers/thumbnails/fun.png",
+              alt: "Inspire Fun Laracasts Wallpaper"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("h2", { staticClass: "font-normal text-base" }, [
+            _vm._v("Inspire Fun")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/wallpapers/fun.png" }
+            },
+            [_vm._v("fun.png")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-12" }, [
+        _c("a", { attrs: { href: "/images/wallpapers/experimenting.png" } }, [
+          _c("img", {
+            staticClass: "mb-4",
+            attrs: {
+              src: "/images/wallpapers/thumbnails/experimenting.png",
+              alt: "Inspire Experimenting Laracasts Wallpaper"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("h2", { staticClass: "font-normal text-base" }, [
+            _vm._v("Inspire Experimenting")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/wallpapers/experimenting.png" }
+            },
+            [_vm._v("experimenting.png")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-12" }, [
+        _c("a", { attrs: { href: "/images/wallpapers/extra.png" } }, [
+          _c("img", {
+            staticClass: "mb-4",
+            attrs: {
+              src: "/images/wallpapers/thumbnails/extra.png",
+              alt: "Inspire Extra Laracasts Wallpaper"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("h2", { staticClass: "font-normal text-base" }, [_vm._v("Extra")]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/wallpapers/extra.png" }
+            },
+            [_vm._v("extra.png")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mb-12" }, [
+        _c("a", { attrs: { href: "/images/wallpapers/inspire-me.png" } }, [
+          _c("img", {
+            staticClass: "mb-4",
+            attrs: {
+              src: "/images/wallpapers/thumbnails/inspire-me.png",
+              alt: "Inspire Extra Laracasts Wallpaper"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex justify-between items-center" }, [
+          _c("h2", { staticClass: "font-normal text-base" }, [
+            _vm._v("Inspire Me")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass:
+                "border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs",
+              attrs: { href: "/images/wallpapers/inspire-me.png" }
+            },
+            [_vm._v("inspire-me.png")]
+          )
+        ])
+      ])
     ])
   }
 ]
@@ -52992,6 +53797,75 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/ColorRange.vue":
+/*!************************************************!*\
+  !*** ./resources/js/components/ColorRange.vue ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ColorRange_vue_vue_type_template_id_30ab8f45___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ColorRange.vue?vue&type=template&id=30ab8f45& */ "./resources/js/components/ColorRange.vue?vue&type=template&id=30ab8f45&");
+/* harmony import */ var _ColorRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ColorRange.vue?vue&type=script&lang=js& */ "./resources/js/components/ColorRange.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ColorRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ColorRange_vue_vue_type_template_id_30ab8f45___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ColorRange_vue_vue_type_template_id_30ab8f45___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/ColorRange.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/ColorRange.vue?vue&type=script&lang=js&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/components/ColorRange.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColorRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ColorRange.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ColorRange.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ColorRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/ColorRange.vue?vue&type=template&id=30ab8f45&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/ColorRange.vue?vue&type=template&id=30ab8f45& ***!
+  \*******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ColorRange_vue_vue_type_template_id_30ab8f45___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ColorRange.vue?vue&type=template&id=30ab8f45& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ColorRange.vue?vue&type=template&id=30ab8f45&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ColorRange_vue_vue_type_template_id_30ab8f45___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ColorRange_vue_vue_type_template_id_30ab8f45___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
