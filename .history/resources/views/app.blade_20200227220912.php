@@ -23,19 +23,19 @@
                         <section class="mb-8">
                             <h5 class="uppercase font-bold mb-4 text-md">The Brand</h5>
                             <ul>
-                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link exact to="/">Logo</router-link></li>
-                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/logo-symbol">Logo Symbol</router-link></li>
-                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/colors">Colors</router-link></li>
-                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/typography">Typography</router-link></li>
+                                <li class="text-gray-700 hover:text-gray-900 text-sm pb-4"><router-link active-class="font-bold" exact to="/">Logo</router-link></li>
+                                <li class="text-gray-700 hover:text-gray-900 text-sm pb-4"><router-link active-class="font-bold" to="/logo-symbol">Logo Symbol</router-link></li>
+                                <li class="text-gray-700 hover:text-gray-900 text-sm pb-4"><router-link active-class="font-bold" to="/colors">Colors</router-link></li>
+                                <li class="text-gray-700 hover:text-gray-900 text-sm pb-4"><router-link active-class="font-bold" to="/typography">Typography</router-link></li>
                             </ul>
                         </section>
                         <section>
                             <h5 class="uppercase font-bold mb-4 text-md">Doodles</h5>
                             <ul>
-                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/mascot">Mascot</router-link></li>
-                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/illustrations">Illustrations</router-link></li>
-                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/loaders-and-animations">Loaders and Animations</router-link></li>
-                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/wallpapers">Wallpapers</router-link></li>
+                                <li class="text-gray-700 hover:text-gray-900 text-sm pb-4"><router-link active-class="font-bold" to="/mascot">Mascot</router-link></li>
+                                <li class="text-gray-700 hover:text-gray-900 text-sm pb-4"><router-link active-class="font-bold" to="/illustrations">Illustrations</router-link></li>
+                                <li class="text-gray-700 hover:text-gray-900 text-sm pb-4"><router-link active-class="font-bold" to="/loaders-and-animations">Loaders and Animations</router-link></li>
+                                <li class="text-gray-700 hover:text-gray-900 text-sm pb-4"><router-link active-class="font-bold" to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
                         </section>
                     </aside>

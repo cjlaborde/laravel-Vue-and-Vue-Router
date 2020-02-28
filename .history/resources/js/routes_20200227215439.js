@@ -3,15 +3,11 @@ import LogoSymbol from './components/LogoSymbol'
 import Colors from './components/Colors'
 import Typography from './components/Typography'
 import Mascot from './components/Mascot'
-import Illustrations from './components/Illustrations'
 import LoadersAndAnimations from './components/LoadersAndAnimations'
-import Wallpapers from './components/Wallpapers'
+import Illustrations from './components/Illustrations'
 
 export default {
     mode: 'history',
-
-    linkActiveClass: 'font-bold',
-    
     routes: [
         {
             path: '/',
@@ -19,7 +15,7 @@ export default {
         },
 
         {
-            path: '/logo-symbol',
+            path: '/about',
             component: LogoSymbol,
             // name: 'about'
         },
@@ -37,21 +33,24 @@ export default {
             component: Mascot,
         },
         {
+            path: '/loaders-and-animations',
+            component: LoadersAndAnimations,
+        },
+        {
             path: '/illustrations',
             component: Illustrations,
         },
         {
-            path: '/loaders-and-animations',
-            component: LoadersAndAnimations,
-        },
- 
-        {
             path: '/typography',
             component: Typography,
+            // name: 'about'
         },
+        
         {
-            path: '/wallpapers',
-            component: Wallpapers,
+            path: '/illustrations',
+            component: Illustrations,
+            // name: 'about'
         },
+
     ]
 }

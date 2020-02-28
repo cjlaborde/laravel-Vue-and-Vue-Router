@@ -9,9 +9,6 @@ import Wallpapers from './components/Wallpapers'
 
 export default {
     mode: 'history',
-
-    linkActiveClass: 'font-bold',
-    
     routes: [
         {
             path: '/',
@@ -19,7 +16,7 @@ export default {
         },
 
         {
-            path: '/logo-symbol',
+            path: '/about',
             component: LogoSymbol,
             // name: 'about'
         },

@@ -9,9 +9,6 @@ import Wallpapers from './components/Wallpapers'
 
 export default {
     mode: 'history',
-
-    linkActiveClass: 'font-bold',
-    
     routes: [
         {
             path: '/',
