@@ -23,7 +23,7 @@
                 <main class="flex">
                     <!-- Side Bar -->
                     <aside class="w-64 pt-8">
-                        <div class="mb-10">
+                        <section class="mb-10">
                             <h5 class="uppercase font-bold mb-5 text-md">The Brand</h5>
                             <ul>
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link exact to="/">Logo</router-link></li>
@@ -31,8 +31,8 @@
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/colors">Colors</router-link></li>
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/typography">Typography</router-link></li>
                             </ul>
-                        </div>
-                        <div>
+                        </section>
+                        <section>
                             <h5 class="uppercase font-bold mb-5 text-md">Doodles</h5>
                             <ul>
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/mascot">Mascot</router-link></li>
@@ -40,7 +40,7 @@
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/loaders-and-animations">Loaders and Animations</router-link></li>
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
-                        </div>
+                        </section>
                     </aside>
                         
                 <hr>

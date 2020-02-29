@@ -1,62 +1,60 @@
 <template>
     <div class="container">
         <h1 class="font-normal text-3xl text-gray-800 leading-none mb-8">
-            Logo Symbol
+            Full Logo
         </h1>
 
-        <!-- Original Symbol -->
+        <!-- Original Logo -->
         <div class="mb-12">
             <picture
                 style="height: 382px;"
                 class="block shadow rounded-lg flex items-center justify-center mb-6"
             >
-                <img src="/images/symbol-original.svg" alt="logo" />
+                <img src="/images/logo.svg" alt="logo" />
             </picture>
 
             <div class="flex justify-between items-center">
-                <p>Original symbol on <strong>white</strong> background</p>
+                <p>Original logo on <strong>white</strong> background</p>
 
-                <a href="/images/logo.svg" class="button">
-                    symbol-original.svg
-                </a>
+                <a href="/images/logo.svg" class="button">logo.svg</a>
             </div>
         </div>
 
-        <!-- Negative Symbol -->
+        <!-- Negative Logo With Accent -->
         <div class="mb-12">
             <picture
                 style="height: 382px;"
-                class="block shadow rounded-lg flex items-center justify-center mb-6 bg-blue-700"
+                class="block shadow rounded-lg flex items-center justify-center mb-6 bg-blue-600"
             >
-                <img src="/images/symbol-negative.svg" alt="logo" />
+                <img src="/images/negative-logo.svg" alt="logo" />
             </picture>
 
             <div class="flex justify-between items-center">
                 <p>
-                    Negative symbol with accent on
+                    Negative logo with accent on
                     <strong>dark</strong> background
                 </p>
 
-                <a href="/images/symbol-negative.svg" class="button">
-                    symbol-negative.svg
+                <a href="/images/negative-logo.svg" class="button">
+                    negative-logo.svg
                 </a>
             </div>
         </div>
 
-        <!-- Pure Negative Symbol -->
-        <div class="mb-12">
+        <!-- Pure Negative Logo -->
+        <div>
             <picture
                 style="height: 382px;"
                 class="block shadow rounded-lg flex items-center justify-center mb-6 bg-black"
             >
-                <img src="/images/symbol-pure-negative.svg" alt="logo" />
+                <img src="/images/pure-negative-logo.svg" alt="logo" />
             </picture>
 
             <div class="flex justify-between items-center">
-                <p>Pure negative symbol on <strong>dark</strong> background</p>
+                <p>Pure negative logo on <strong>dark</strong> background</p>
 
-                <a href="/images/symbol-pure-negative.svg" class="button">
-                    symbol-pure-negative.svg
+                <a href="/images/pure-negative-logo.svg" class="button">
+                    pure-negative-logo.svg
                 </a>
             </div>
         </div>

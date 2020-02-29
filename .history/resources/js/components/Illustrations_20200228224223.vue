@@ -6,7 +6,7 @@
 
         <div class="flex mb-12">
             <picture
-                class="rounded-lg bg-blue-700 py-6 px-10 mr-10 flex-1 flex justify-center items-center"
+                class="rounded-lg bg-blue-600 py-6 px-10 mr-10 flex-1 flex justify-center items-center"
             >
                 <img
                     src="/images/illustrations/clarity.svg"
@@ -33,7 +33,7 @@
 
         <div class="flex mb-12">
             <picture
-                class="rounded-lg bg-blue-700 py-6 px-10 mr-10 flex flex-1 justify-center items-center"
+                class="rounded-lg bg-blue-600 py-6 px-10 mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/fun.svg"
@@ -61,7 +61,7 @@
 
         <div class="flex mb-12">
             <picture
-                class="rounded-lg bg-blue-700 py-6 px-10 mr-10 flex flex-1 justify-center items-center"
+                class="rounded-lg bg-blue-600 py-6 px-10 mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/experiment.svg"
@@ -89,7 +89,7 @@
 
         <div class="flex mb-12">
             <picture
-                class="rounded-lg bg-blue-700 py-6 px-10 mr-10 flex flex-1 justify-center items-center"
+                class="rounded-lg bg-blue-600 py-6 px-10 mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/strength.svg"
@@ -117,7 +117,7 @@
 
         <div class="flex mb-12">
             <picture
-                class="rounded-lg bg-blue-700 py-6 px-10 mr-10 flex flex-1 justify-center items-center"
+                class="rounded-lg bg-blue-600 py-6 px-10 mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/information.svg"

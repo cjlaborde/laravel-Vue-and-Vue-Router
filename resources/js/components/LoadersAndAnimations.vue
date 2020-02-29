@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <h1 class="font-normal text-3xl text-gray-800 leading-none mb-8">
             Loaders and Animations
         </h1>
@@ -19,11 +19,7 @@
             <div ref="lottie" class="w-64" style="height: 457px"></div>
         </div>
 
-        <a
-            href="/images/logo.svg"
-            class="border border-gray-200 px-10 py-2 rounded-full text-black font-bold text-xs"
-            >spinner.zip
-        </a>
+        <a href="/laracasts-spinner.zip" class="button">spinner.zip</a>
     </div>
 </template>
 

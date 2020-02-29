@@ -38,7 +38,7 @@
 
                 <a
                     href="/images/mascot/larypeek.svg"
-                    class="text-gray-600 text-2xs hover:underline mt-auto"
+                    class="text-grey text-2xs hover:underline mt-auto"
                     >larypeek.svg</a
                 >
             </div>
@@ -57,7 +57,7 @@
 
                 <a
                     href="/images/mascot/larywink.svg"
-                    class="text-gray-600 text-2xs hover:underline mt-auto"
+                    class="text-grey text-2xs hover:underline mt-auto"
                     >larywink.svg</a
                 >
             </div>

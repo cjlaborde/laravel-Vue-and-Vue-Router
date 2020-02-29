@@ -41,6 +41,15 @@
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
                         </div>
+                        <div>
+                            <h5 class="uppercase font-bold mb-5 text-md">Doodles</h5>
+                            <ul>
+                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/mascot">Mascot</router-link></li>
+                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/illustrations">Illustrations</router-link></li>
+                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/loaders-and-animations">Loaders and Animations</router-link></li>
+                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/wallpapers">Wallpapers</router-link></li>
+                            </ul>
+                        </div>
                     </aside>
                         
                 <hr>

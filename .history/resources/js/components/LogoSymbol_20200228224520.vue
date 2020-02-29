@@ -26,7 +26,7 @@
         <div class="mb-12">
             <picture
                 style="height: 382px;"
-                class="block shadow rounded-lg flex items-center justify-center mb-6 bg-blue-700"
+                class="block shadow rounded-lg flex items-center justify-center mb-6 bg-blue-600"
             >
                 <img src="/images/symbol-negative.svg" alt="logo" />
             </picture>

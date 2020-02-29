@@ -5,7 +5,7 @@
         </h1>
 
         <div class="mb-16">
-            <p class="mb-8">Primary - Blue, White, Dark Gray</p>
+            <p class="mb-8">Primary - Blue, White, Dark Grey</p>
 
             <div class="flex">
                 <div class="text-center mr-8">
