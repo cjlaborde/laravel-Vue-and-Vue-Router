@@ -67,10 +67,5 @@ export default {
             path: '/wallpapers',
             component: Wallpapers,
         },
-
-        {
-            path: '/site-stats',
-            component: SiteStats,
-        },
     ]
 }

@@ -32,7 +32,7 @@
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/typography">Typography</router-link></li>
                             </ul>
                         </div>
-                        <div class="mb-10">
+                        <div>
                             <h5 class="uppercase font-bold mb-5 text-md">Doodles</h5>
                             <ul>
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/mascot">Mascot</router-link></li>
@@ -44,7 +44,7 @@
                         <div>
                             <h5 class="uppercase font-bold mb-5 text-md">Stats</h5>
                             <ul>
-                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/site-stats">Site Stats</router-link></li>
+                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/mascot">Site Stats</router-link></li>
                             </ul>
                         </div>
                     </aside>

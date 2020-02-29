@@ -1,0 +1,19 @@
+<template>
+    <div class="container">
+        <h1 class="font-normal text-3xl text-gray-800 leading-none mb-8">
+            Laracasts Stats
+        </h1>
+
+        <ul>
+            <li>
+                <strong>Total Lessons: </strong> {{ lessons }}
+            </li>
+        </ul>
+    </div>
+</template>
+
+<script>
+export default {
+    
+}
+</script>

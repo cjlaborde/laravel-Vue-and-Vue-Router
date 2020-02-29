@@ -1,12 +1,14 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router'
-import routes from './routes';
-import axios from'axios';
+require('./bootstrap');
 
-// assign axios globally
-window.axios = axios;
+window.Vue = require('vue');
+
+window.axios = require('axios');
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+
+import VueRouter from 'vue-router'
+import routes from './routes';
+
 
 Vue.use(VueRouter);
 
