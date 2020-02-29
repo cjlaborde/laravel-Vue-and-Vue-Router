@@ -7,7 +7,7 @@ import Illustrations from './components/Illustrations'
 import Wallpapers from './components/Wallpapers'
 import NotFound from './components/NotFound'
 
-let LoadersAndAnimations = () => import(/* webpackChunkName: "loaders" */ './components/LoadersAndAnimations');
+import LoadersAndAnimations from './components/LoadersAndAnimations'
 
 export default {
     mode: 'history',
