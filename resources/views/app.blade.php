@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>Laracasts Assets</title>
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-    </head>
-    <body class="font-open-sans">
-        <div id="app">
+    @section('content')
             <div class="containor px-8">
 
                 <header class="section py-8 mb-8" style="background: url('/images/splash.svg') 0 15px no-repeat;">
                     <h1>
-                        <router-link to="/">
+                        <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-700 no-underline">
                             <img alt="Laracasts" src="/images/logo.svg">
-                        </router-link>
+                        </a>
                     </h1>
                 </header>
 
@@ -26,7 +17,7 @@
                         <div class="mb-10">
                             <h5 class="uppercase font-bold mb-5 text-md">The Brand</h5>
                             <ul>
-                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link exact to="/">Logo</router-link></li>
+                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link exact to="/assets">Logo</router-link></li>
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/logo-symbol">Logo Symbol</router-link></li>
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/colors">Colors</router-link></li>
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/typography">Typography</router-link></li>
@@ -45,6 +36,7 @@
                             <h5 class="uppercase font-bold mb-5 text-md">Stats</h5>
                             <ul>
                                 <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/site-stats">Site Stats</router-link></li>
+                                <li class="text-gray-800 hover:text-gray-900 text-sm pb-4"><router-link to="/your-archievements">Your Archievements</router-link></li>
                             </ul>
                         </div>
                     </aside>
@@ -55,11 +47,8 @@
                         <!-- Where the content of each component would go. Similar to yield in laravel  -->
                         <router-view></router-view>
                     </div>
+                    {{-- <router-link :to="{ name: 'about'}">About</router-link> --}}
                 </main>
 
-                {{-- <router-link :to="{ name: 'about'}">About</router-link> --}}
             </div>
-        </div>
-        <script src="{{ mix('js/app.js') }}"></script>
-    </body>
-</html>
+@endsection

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,16 @@ Route::get('stats', function() {
         'lessons' => 1300
     ];
 });
+
+Route::get('archievements', function() {
+    return request()->user()->archievements;
+})->middleware('auth:api');
+
+
+// Route::get('archievements', function() {
+//     return 'it works!';
+//     // $user = User::whereName('John')->first();
+//     $user = request()->user(); 
+
+//     return $user->archievements;
+// })->middleware('auth:api');

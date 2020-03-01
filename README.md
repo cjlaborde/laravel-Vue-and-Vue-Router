@@ -287,6 +287,232 @@ let app = new Vue({
     }
 ```
 
+### Token Based API Authentication to get more sensitive data from server
+1. Add menu for Your Archievements in app.blade.php
+2. Then create vue component named Archievements
+3. Add Archievements to routes.js
+4. Then fill the modal so it can get data from laravel
+```js
+   <template>
+    <div class="container">
+        <h1 class="font-normal text-3xl text-gray-800 leading-none mb-8">
+            Your Archievements
+        </h1>
 
+        <ul>
+            <li
+                v-for="archievement in archievements"
+                v-text="archievement.name"
+            >
+            </li>
+        </ul>
 
+    </div>
+</template>
 
+<script>
+export default {
+    data() {
+        return { archievements: [] }
+    },
+
+    created() {
+        axios.get('http://assets.test/api/archievements')
+             .then(response => {
+                 this.archievements = response.data;
+             })
+    }
+};
+</script>
+
+```
+5. Then add the route to the routes/api.php
+
+```php
+   Route::get('archievements', function() {
+       $user = User::whereUsername('John')->first();
+
+       return $user->archievements;
+   });
+```
+6. Create database and migrate
+7. You will get error so you have to create archievements modal and migration
+8. `php artisan make:model Archievement -m`
+9. On archievement migration add to table the one to many connection >https://www.itsolutionstuff.com/post/laravel-one-to-many-eloquent-relationship-tutorialexample.html
+```js
+   $table->integer('user_id')->unsigned();
+   $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+```
+10. then in User.php
+```php
+    public function archievements()
+    {
+        return $this->hasMany(Archievement::class);
+    }
+```
+11. In Archievement.php
+```php
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+```
+12. php artisan migration
+13. Generate some auth
+14. composer require laravel-frontend-presets/tailwindcss --dev
+15. php artisan preset tailwindcss-auth
+16. put app.scss code into the new app.css in resources
+17. fill the database with archievements
+```php
+
+Route::get('archievements', function() {
+    $user = User::whereName('John')->first();
+
+    return $user->archievements;
+});
+
+```
+18. $user = User::whereName('John')->first(); means look in the User table where column name = John
+19. now visit http://assets.test/your-archievements to see the archievements rendered on page.
+20. Now we can see them all but we want it so that only the auth user can read see them only.
+21. You can read your archievements but you can't see another user archievements.
+22. config/auth as you can see you can auth as a user using a token
+```php
+
+        'api' => [
+            'driver' => 'token',
+            'provider' => 'users',
+            'hash' => false,
+        ],
+
+```
+23. Basically when you make an ajax request you will include your api token
+24. this driver will validate it with what stored in the database
+25. php artisan make:migration add_api_token_to_users_table --table=users
+26. add new column field token in users table after password that is unique but not neccessary.
+```php
+{
+    public function up()
+    {
+        Schema::table('users', function (Blueprint $table) {
+            # you can put limit of 80 for the ramdom string generated
+            $table->string('api_token', 80)
+                  ->after('password')
+                  ->unique()
+                  ->nullable();
+        });
+    }
+
+    public function down()
+    {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('api_token');  
+        });
+    }
+}
+```
+27. php artisan migrate
+28. lets generate the token with tinker
+29. $user = App\User::whereName('John')->first();
+30. Then fill the api_token with string random (Will not work in laravel 6 use Str::random instead)
+31. $user->fill(['api_token' => Str::random(60)])->save();
+32. Did not work either!!! so instead the helpers 
+33. composer require laravel/helpers
+34. tinker
+35. $user = App\User::whereName('John')->first();
+36. didn't work so added it manually
+37. N0ibsB1CmktdkA7vof9a3LCPB3IQr2zRAOCbh6OeZbU12Yj0y7XIfcAG7qIj add token to the Archievements.vue
+38. axios.get('http://assets.test/api/archievements?api_token=N0ibsB1CmktdkA7vof9a3LCPB3IQr2zRAOCbh6OeZbU12Yj0y7XIfcAG7qIj')
+39.  Will perform a cros Ajax request while passing the token
+40.  Now go to APi routes and apply the auth:api middleware
+```php
+Route::get('archievements', function() {
+    return 'it works!'; # to test if it works
+    $user = User::whereName('John')->first();
+
+    return $user->archievements;
+})->middleware('auth:api');
+```
+41. 'auth' means you need to be authenticated to assess the route. But this needs to be stateless so we use 'auth:api' authentication.
+42. we will use token tracker for authentication go to as declared in the config/auth.php file.
+```JS
+
+        'api' => [
+            'driver' => 'token',
+            'provider' => 'users',
+            'hash' => false,
+        ],
+```
+43. Then check web dev tools Network > XHR on http://assets.test/archievements
+44. Now try to change token to see error.
+45. axios.get('http://assets.test/api/archievements?api_token=N0ibsB1CmktdkA7vof9a3LCPB3IQr2zRAOCbh6OeZbU12Yj0y7XIfcAG7qIjQQQQQQ')
+46. You get unauthorized and laravel rejects the request since API key invalid
+47. since you signed in the just get auth() user associated with the request
+```php
+Route::get('archievements', function() {
+    return 'it works!';
+    // $user = User::whereName('John')->first();
+    $user = request()->user();
+
+    return $user->archievements;
+})->middleware('auth:api');
+```
+48. then you can inline refactor the code
+```php
+Route::get('archievements', function() {
+    return request()->user()->archievements;
+})->middleware('auth:api');
+```
+48. now fix the api key again
+49. axios.get('http://assets.test/api/archievements?api_token=N0ibsB1CmktdkA7vof9a3LCPB3IQr2zRAOCbh6OeZbU12Yj0y7XIfcAG7qIj')
+50. we need to call axios request after token has been populated
+51. so use methods() and create method fetchArchievements() inside instead of using created
+52. use @keyup so that when they press enter key it will call fetchArchievements()
+53. then make ajax request, if everything done correctly once we update response.data we update the achievements [] array
+54. So it will rerender the list.
+55. So you use N0ibsB1CmktdkA7vof9a3LCPB3IQr2zRAOCbh6OeZbU12Yj0y7XIfcAG7qIj code in input and will render the lists of achievements
+56. this is similar to other services where you use API key like google maps.
+57. Lets create new user with tinker and factory
+58.  factory('App\User')->create();
+59.  then make new token 18fgoi6hRLkcEXSvWXV0Z2QKiU3SMRNR4nrnZSU2a8wDvlcV8JSTscUMwMlr with Str::random(60);
+60.  We don't get feedback when we enter wrong code so lets fix that.
+```js
+            fetchAchievements() {
+                // axios.get('http://assets.test/api/archievements?api_token=N0ibsB1CmktdkA7vof9a3LCPB3IQr2zRAOCbh6OeZbU12Yj0y7XIfcAG7qIj')
+                axios.get(
+                    `http://assets.test/api/archievements?api_token=${
+                        this.token
+                        }`
+                    )
+                    .catch(error => {
+                        // console.log(error.response);
+                         this.message = error.response.data.error;
+                    })
+                     .then(({ data }) => (this.archievements = data));
+        }
+```
+61. As you can see you can also catch error then go to browser put wrong api token and then check console for data:--->message: "Unauthenticated."
+62. That is how we find ` this.message = error.response.data.message;`
+63. then if you have error message spill it out         <p class="text-red-500 italic text-sm" v-if="message" v-text="message"></p>
+64. now if we try correct code we still see error message we got to fix that.
+```js
+        methods: {
+            fetchAchievements() {
+                // axios.get('http://assets.test/api/archievements?api_token=N0ibsB1CmktdkA7vof9a3LCPB3IQr2zRAOCbh6OeZbU12Yj0y7XIfcAG7qIj')
+                axios.get(
+                    `http://assets.test/api/archievements?api_token=${
+                        this.token
+                        }`
+                    )
+                    .catch(error => {
+                        // console.log(error.response);
+                        this.message = error.response.data.message;
+                        this.archievements = [];
+                    })
+                     .then(({ data }) => {
+                         this.archievements = data;
+                         this.message = null;
+            });
+        }
+```
+65. This works great as well when the API has the API key saved and check if it match up with the one you have.
