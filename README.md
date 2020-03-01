@@ -516,3 +516,48 @@ Route::get('archievements', function() {
         }
 ```
 65. This works great as well when the API has the API key saved and check if it match up with the one you have.
+
+### Hashed API Tokens
+1. go to the api app then go to config/auth.php
+```php
+    'guards' => [
+        'web' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+
+        'api' => [
+            'driver' => 'token',
+            'provider' => 'users',
+            'hash' => false,
+        ],
+    ],
+```
+2. auth:api this means I want the auth middleware using the API guard (from config/auth.php you can see both guard and api) no the web guard that you normally use
+```php
+   Route::get('archievements', function() {
+       return request()->user()->archievements;
+   })->middleware('auth:api');
+```
+3. notice from above we want a token driver then we see hash set to false
+4. what will happen behind scenes is laravel will try to create a token driver it intiantiate class called TokenGuard
+5. TokenGuard is the class that validate the request and gets the associated user
+6. Then checks if we should hash it
+7. Then use that credential to find the associated user from database
+8. that means that if we want validation to first hash the token set it to true  'hash' => true,
+9.  Now we need to give user ability to generate token or refresh token
+10. tinker
+11. $token = Str::random(60);
+12. 37tpOIyjPiGPujUq28xH2UUjbuPfqB7H41B2nJVh2aF6MXiAE8sCyfAAfddV
+13. $htoken = hash('sha256', $token);
+14. f9fbcb880cbd8e56ea6b70cdb217cd6f139893a1cde05f0501c7553ba3f7babe
+15. $me = App\User::first();
+16. $me->api_token
+17. $me->api_token = $htoken
+18. $me->save();
+19. $me->api_token
+20. this is hashed api_token saved in database 
+21. "f9fbcb880cbd8e56ea6b70cdb217cd6f139893a1cde05f0501c7553ba3f7babe"
+22. But real api_token is
+23. 37tpOIyjPiGPujUq28xH2UUjbuPfqB7H41B2nJVh2aF6MXiAE8sCyfAAfddV
+24. because we turned on the 'hash' => true
