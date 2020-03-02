@@ -30,6 +30,9 @@
                                 <a class="no-underline hover:text-gray-900 text-gray-700 text-sm p-3" href="{{ route('register') }}">{{ __('Register') }}</a>
                             @endif
                         @else
+                            <a href="{{ route('home') }}" class="text-gray-700 hover:text-gray-900 text-sm pr-4">
+                                Generate Token
+                            </a>
                             <span class="text-gray-700 text-sm pr-4">{{ Auth::user()->name }}</span>
 
                             <a href="{{ route('logout') }}"

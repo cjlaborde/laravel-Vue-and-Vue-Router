@@ -561,3 +561,22 @@ Route::get('archievements', function() {
 22. But real api_token is
 23. 37tpOIyjPiGPujUq28xH2UUjbuPfqB7H41B2nJVh2aF6MXiAE8sCyfAAfddV
 24. because we turned on the 'hash' => true
+
+### Generating New Tokens
+1. php artisan make:controller AccessToken  
+2. Go to AccessTokenController.php
+3. create method for show() and update()
+4. create web.php routes
+5. now we want to show token to user
+6. also tell them to write it down since the token will dissapear
+7. So you say here your unhashed password we not keeping it so store it. in a session message
+8. return back()->with('session', 'We have generated a new token for you. You will only see this once, so please store it somewhere safe: ' . $token);
+9. and in the form
+```php
+  @if (session('message'))
+      <p class="text-gray-400 mt-6">{{ session('message') }}</p>
+  @endif
+```
+10. fix issue with routes in web.php and routes.js
+11. fixed home.blade.php to align message properly centered on top of each other
+12. added navbar menu item for generating token

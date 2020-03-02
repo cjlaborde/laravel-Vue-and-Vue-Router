@@ -20815,35 +20815,35 @@ var LoadersAndAnimations = function LoadersAndAnimations() {
     path: '/assets',
     component: _components_Logo__WEBPACK_IMPORTED_MODULE_0__["default"]
   }, {
-    path: '/logo-symbol',
+    path: '/assets/logo-symbol',
     component: _components_LogoSymbol__WEBPACK_IMPORTED_MODULE_1__["default"] // name: 'about'
 
   }, {
-    path: '/colors',
+    path: '/assets/colors',
     component: _components_Colors__WEBPACK_IMPORTED_MODULE_2__["default"]
   }, {
-    path: '/typography',
+    path: '/assets/typography',
     component: _components_Typography__WEBPACK_IMPORTED_MODULE_3__["default"]
   }, {
-    path: '/mascot',
+    path: '/assets/mascot',
     component: _components_Mascot__WEBPACK_IMPORTED_MODULE_4__["default"]
   }, {
-    path: '/illustrations',
+    path: '/assets/illustrations',
     component: _components_Illustrations__WEBPACK_IMPORTED_MODULE_5__["default"]
   }, {
-    path: '/loaders-and-animations',
+    path: '/assets/loaders-and-animations',
     component: LoadersAndAnimations
   }, {
-    path: '/typography',
+    path: '/assets/typography',
     component: _components_Typography__WEBPACK_IMPORTED_MODULE_3__["default"]
   }, {
-    path: '/wallpapers',
+    path: '/assets/wallpapers',
     component: _components_Wallpapers__WEBPACK_IMPORTED_MODULE_6__["default"]
   }, {
-    path: '/site-stats',
+    path: '/assets/site-stats',
     component: _components_SiteStats__WEBPACK_IMPORTED_MODULE_7__["default"]
   }, {
-    path: '/your-archievements',
+    path: '/assets/your-archievements',
     component: _components_Archievements__WEBPACK_IMPORTED_MODULE_8__["default"]
   }]
 });

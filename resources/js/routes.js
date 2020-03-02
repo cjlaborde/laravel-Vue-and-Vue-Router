@@ -29,52 +29,52 @@ export default {
         },
 
         {
-            path: '/logo-symbol',
+            path: '/assets/logo-symbol',
             component: LogoSymbol,
             // name: 'about'
         },
 
         {
-            path: '/colors',
+            path: '/assets/colors',
             component: Colors,
         },
 
         {
-            path: '/typography',
+            path: '/assets/typography',
             component: Typography,
         },
 
         {
-            path: '/mascot',
+            path: '/assets/mascot',
             component: Mascot,
         },
 
         {
-            path: '/illustrations',
+            path: '/assets/illustrations',
             component: Illustrations,
         },
         
         {
-            path: '/loaders-and-animations',
+            path: '/assets/loaders-and-animations',
             component: LoadersAndAnimations,
         },
  
         {
-            path: '/typography',
+            path: '/assets/typography',
             component: Typography,
         },
 
         {
-            path: '/wallpapers',
+            path: '/assets/wallpapers',
             component: Wallpapers,
         },
 
         {
-            path: '/site-stats',
+            path: '/assets/site-stats',
             component: SiteStats,
         },
         {
-            path: '/your-archievements',
+            path: '/assets/your-archievements',
             component: Archievements,
         },
     ]

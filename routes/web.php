@@ -11,13 +11,19 @@
 |
 */
 
+Route::get('/', function () {
+    return redirect('/assets');
+});
 
-
-Route::get('/{any?}', function () {
+Route::get('/assets/{any?}', function () {
     return view('app');
 })->where('any', '.*');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::patch('/settings/access', 'AccessTokenController@update');
+
+
 
